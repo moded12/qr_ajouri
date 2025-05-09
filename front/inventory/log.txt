@@ -1,0 +1,30 @@
+RECEIVED: {"name":"5555","model":"5555","quantity":"555","unit_id":"1","category_id":"1","location_id":"1","barcode":"","serial_number":"","price":"55","notes":""}
+✅ SUCCESS: Item inserted
+RECEIVED: {"name":"6666","model":"666","quantity":"6","unit_id":"1","category_id":"1","location_id":"1","barcode":"","serial_number":"","price":"66","notes":""}
+✅ SUCCESS: Item inserted
+RECEIVED: {"name":"7777","model":"777","quantity":"7","unit_id":"1","category_id":"1","location_id":"1","barcode":"","serial_number":"","price":"7","notes":""}
+✅ SUCCESS: Item inserted
+RECEIVED: {"name":"9999","model":"99","quantity":"99","unit_id":"1","category_id":"2","location_id":"1","barcode":"","serial_number":"","price":"99","notes":""}
+✅ SUCCESS: Item inserted
+RECEIVED: {"name":"1000","model":"10","quantity":"3","unit_id":"1","category_id":"1","location_id":"1","barcode":"","serial_number":"","price":"10","notes":""}
+✅ SUCCESS: Item and units inserted
+RECEIVED: {"name":"\u062a\u062c\u0631\u0628\u0629 \u0627\u062e\u0631\u0627\u062c \u0645\u0646\u062a\u062c","model":"\u062a\u062c\u0631\u0628\u0629","quantity":"3","unit_id":"1","category_id":"4","location_id":"1","barcode":"","serial_number":"","price":"25","notes":""}
+✅ SUCCESS: Item and units inserted
+RECEIVED: {"name":"0101","model":"0101","quantity":"4","unit_id":"1","category_id":"1","location_id":"1","barcode":"","serial_number":"","price":"0101","notes":""}
+✅ SUCCESS: Item and units inserted
+RECEIVED: {"name":"0202","model":"0202020","quantity":"10","unit_id":"3","category_id":"3","location_id":"1","barcode":"","serial_number":"","price":"150","notes":"\u0627\u0644\u0645\u062f\u0631\u0633\u0629"}
+✅ SUCCESS: Item and units inserted
+RECEIVED: {"name":"\u063a\u0633\u0627\u0644\u0629 \u0633\u0627\u0645\u0633\u0648\u0646\u062c","model":"5000","quantity":"20","unit_id":"1","category_id":"4","location_id":"1","barcode":"","serial_number":"","price":"150","notes":"\u062a\u062c\u0631\u064a\u0628\u064a"}
+✅ SUCCESS: Item and units inserted
+RECEIVED: {"name":"\u0645\u0627\u0648\u0633 \u0644\u0627\u0633\u0644\u0643\u064a22","model":"777","quantity":"5","unit_id":"1","category_id":"4","location_id":"2","barcode":"","serial_number":"","price":"66","notes":""}
+✅ SUCCESS: Item and units inserted
+RECEIVED: {"name":"eeeee","model":"eeee","quantity":"7","unit_id":"1","category_id":"4","location_id":"1","barcode":"","serial_number":"","price":"44","notes":""}
+✅ SUCCESS: Item and units inserted
+RECEIVED: {"name":"rrrr","model":"rrr","quantity":"4","unit_id":"1","category_id":"1","location_id":"3","barcode":"","serial_number":"","price":"55","notes":""}
+✅ SUCCESS: Item and units inserted
+RECEIVED: {"name":"aaaa","model":"aaaa","quantity":"24","unit_id":"1","category_id":"4","location_id":"2","barcode":"","serial_number":"","price":"45","notes":""}
+✅ SUCCESS: Item and units inserted
+RECEIVED: {"name":"\u0645\u0643\u0648\u0649","model":"Samix","quantity":"7","unit_id":"1","category_id":"4","location_id":"1","barcode":"","serial_number":"","price":"15","notes":"\u0645\u0643\u0648\u0649 \u0635\u0646\u0641 \u0627\u0648\u0644"}
+✅ SUCCESS: Item and units inserted
+RECEIVED: {"name":"receiver","model":"ghazal","quantity":"8","unit_id":"1","category_id":"4","location_id":"1","barcode":"","serial_number":"","price":"20","notes":"ip"}
+✅ SUCCESS: Item and units inserted

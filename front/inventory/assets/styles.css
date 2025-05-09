@@ -1,0 +1,39 @@
+﻿/* FILE: assets/styles.css */
+/* تنسيقات النظام الرئيسية - ERP Design RTL */
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f8f9fa;
+  direction: rtl;
+}
+
+.header {
+  background-color: #0d6efd;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+table {
+  background-color: white;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+  vertical-align: middle;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+.btn-primary {
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: #999;
+}

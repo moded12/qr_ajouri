@@ -1,0 +1,185 @@
+/* =======================
+   CSS: style.css (مشترك لكل الصفحات)
+   ======================= */
+
+/* === قائمة الأصناف - list_items.php === */
+body {
+  font-family: 'Cairo', sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.header-wrapper {
+  background: #e0f2f1;
+  border-bottom: 1px solid #ccc;
+}
+
+.page-header {
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header h2 {
+  margin: 0;
+  color: #004D40;
+  font-size: 22px;
+}
+
+.print-button {
+  background-color: #004D40;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.filters select,
+.filters input[type="text"] {
+  padding: 6px;
+  font-size: 14px;
+}
+
+.filters button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #00796B;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* === الجداول === */
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px #ccc;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  word-break: break-word;
+}
+
+th {
+  background: #00796B;
+  color: white;
+}
+
+.actions a {
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.edit {
+  color: #1565C0;
+}
+
+.delete {
+  color: #C62828;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.barcode-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.serial-label {
+  font-size: 13px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.barcode-actions {
+  margin-top: 5px;
+}
+
+/* === طباعة === */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  table, table * {
+    visibility: visible;
+  }
+  table {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .header-wrapper {
+    display: none !important;
+  }
+}
+
+/* === استجابة الشاشات الصغيرة === */
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .filters {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* === الجداول على الشاشات الصغيرة === */
+@media (max-width: 768px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+  }
+
+  td {
+    text-align: right;
+    padding: 10px 15px;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+}
